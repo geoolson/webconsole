@@ -12,6 +12,7 @@ var textBox = {
         catch(err) {
             this.setResponse(err.message, "red");
         }
+        this.updateTextField("");
     },
 
     updateTextField : function(newString) {
